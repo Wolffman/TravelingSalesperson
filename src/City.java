@@ -33,10 +33,10 @@ public class City {
 
         return distance;
     }
-    public City[]mate(){
-
-    }
-    public void mutate(){
+//    public City[]mate(){
+//
+//    }
+    public void mutate( City cit){
 
     }
 
