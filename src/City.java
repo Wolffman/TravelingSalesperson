@@ -33,6 +33,12 @@ public class City {
 
         return distance;
     }
+    public City[]mate(){
+
+    }
+    public void mutate(){
+
+    }
 
     @Override
     public String toString(){

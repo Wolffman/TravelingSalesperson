@@ -2,7 +2,7 @@
  * Created by michael_hopps on 12/1/17.
  */
 public class TestCities {
-    //wam sadnajldn
+    //wam
 
      private City[] cities;
 
