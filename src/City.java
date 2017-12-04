@@ -36,8 +36,12 @@ public class City {
 //    public City[]mate(){
 //
 //    }
-    public void mutate( City cit){
-
+    public void mutate( Answer ans){
+        int one= (int)(Math.random()*ans.getCits().length);
+        int two= (int)(Math.random()*ans.getCits().length);
+        City temp= ans.getCits()[one];
+        ans.getCits()[one]=ans.getCits()[two];
+        ans.getCits()[two]= temp;
     }
 
     @Override
